@@ -1,5 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <li>  <a [routerLink]="['movies']"> movies </a>   </li>
+  <li>  <a [routerLink]="['movie/:id']"> Id </a>   </li>
+</nav>
 
 <app-movie-list></app-movie-list>
+
+
+
+
+<div id="site-main" class="container">
+    <router-outlet></router-outlet>
+  </div>

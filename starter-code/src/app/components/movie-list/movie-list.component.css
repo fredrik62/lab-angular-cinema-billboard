@@ -1,0 +1,15 @@
+.box {
+width: 250px;
+ 
+}
+
+img {
+  width: inherit;
+  height: 250px;
+}
+
+.box-office {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
